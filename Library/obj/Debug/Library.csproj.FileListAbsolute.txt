@@ -1,5 +1,0 @@
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Library\bin\Debug\Library.dll
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Library\bin\Debug\Library.pdb
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Library\obj\Debug\Library.dll
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Library\obj\Debug\Library.pdb
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache

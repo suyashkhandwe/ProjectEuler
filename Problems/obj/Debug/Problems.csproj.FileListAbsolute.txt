@@ -1,7 +1,0 @@
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\bin\Debug\Problems.dll
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\bin\Debug\Problems.pdb
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\bin\Debug\Library.dll
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\bin\Debug\Library.pdb
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\obj\Debug\Problems.csprojResolveAssemblyReference.cache
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\obj\Debug\Problems.dll
-C:\Users\skhand\Documents\DotNet\ProjectEuler\Problems\obj\Debug\Problems.pdb
