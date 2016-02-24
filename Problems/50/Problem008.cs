@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
+using Problems;
 
-namespace Problems._50 {
+namespace Problems_50 {
     public class Problem008 : IProblem {
         public void ProblemSolver() {
             Console.WriteLine("Largest product in a series");

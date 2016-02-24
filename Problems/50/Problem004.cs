@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Globalization;
 using Library;
+using Problems;
 
-namespace Problems._50 {
+namespace Problems_50 {
     public class Problem004 : IProblem {
         public void ProblemSolver() {
             Console.WriteLine("Largest palindrome product");

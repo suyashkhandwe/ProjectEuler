@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
-using Problems._50;
+using Problems_50;
 
 namespace ProjectEuler {
     internal static class MainEngine {

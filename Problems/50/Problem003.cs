@@ -1,7 +1,8 @@
 ﻿using System;
 using Library;
+using Problems;
 
-namespace Problems._50 {
+namespace Problems_50 {
     public class Problem003 : IProblem {
         public void ProblemSolver() {
             Console.WriteLine("Largest prime factor");

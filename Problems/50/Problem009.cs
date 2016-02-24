@@ -1,6 +1,7 @@
 ﻿using System;
+using Problems;
 
-namespace Problems._50 {
+namespace Problems_50 {
     public class Problem009 : IProblem {
         public void ProblemSolver() {
             Console.WriteLine("Special Pythagorean triplet");
@@ -9,7 +10,7 @@ namespace Problems._50 {
                     for (var c = 1; c <= 1000; c++) {
                         if (a + b + c != 1000)
                             continue;
-                        
+
                         // ReSharper disable once CompareOfFloatsByEqualityOperator
                         if (Math.Pow(a, 2) + Math.Pow(b, 2) != Math.Pow(c, 2))
                             continue;
