@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Linq;
 using Library;
-using Problems;
 
-namespace Problems_50 {
+namespace Problems._50 {
     public class Problem002 : IProblem {
         /// <summary>
         /// Solves Problem 002

@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +53,8 @@
     <Compile Include="50\Problem013.cs" />
     <Compile Include="50\Problem014.cs" />
     <Compile Include="50\Problem015.cs" />
+    <Compile Include="50\Problem016.cs" />
+    <Compile Include="50\Problem017.cs" />
     <Compile Include="IProblem.cs" />
     <Compile Include="50\Problem001.cs" />
     <Compile Include="50\Problem002.cs" />

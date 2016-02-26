@@ -1,7 +1,6 @@
 ﻿using System;
-using Problems;
 
-namespace Problems_50 {
+namespace Problems._50 {
     public class Problem014 : IProblem {
         public void ProblemSolver() {
             Console.WriteLine("Longest Collatz sequence");

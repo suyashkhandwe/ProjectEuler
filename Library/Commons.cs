@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace Library {
     public class Commons {
@@ -110,7 +111,7 @@ namespace Library {
         /// <returns>All factors</returns>
         public List<long> GetAllPrimeFactors(long num, List<long> primeNumbers) {
             var factors = new List<long>();
-            
+
             // ReSharper disable once LoopCanBePartlyConvertedToQuery
             foreach (var divisor in primeNumbers) {
                 if (divisor > num) {
@@ -310,6 +311,21 @@ namespace Library {
             }
 
             return countOfFactors;
+        }
+
+        /// <summary>
+        /// Converts the given number into an array of digits
+        /// </summary>
+        /// <param name="num">Number to be converted to array of digits</param>
+        /// <returns>An integer array containing the digits of the given number</returns>
+        public int[] ConvertNumberToArrayOfDigits(BigInteger num) {
+            var list = new List<int>();
+            while (num > 0) {
+                var digit = num%10;
+                list.Add((int) digit);
+                num = (num - digit)/10;
+            }
+            return list.ToArray();
         }
     }
 }

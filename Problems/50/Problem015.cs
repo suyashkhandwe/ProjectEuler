@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Problems;
 
-namespace Problems_50 {
+namespace Problems._50 {
     public class Problem015 : IProblem {
         public void ProblemSolver() {
             const int gridSize = 20;

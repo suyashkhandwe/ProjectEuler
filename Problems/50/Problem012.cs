@@ -1,8 +1,7 @@
 ﻿using System;
 using Library;
-using Problems;
 
-namespace Problems_50 {
+namespace Problems._50 {
     public class Problem012 : IProblem {
         public void ProblemSolver() {
             Console.WriteLine("Highly divisible triangular number");

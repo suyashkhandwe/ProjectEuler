@@ -1,7 +1,6 @@
 ﻿using System;
-using Problems;
 
-namespace Problems_50 {
+namespace Problems._50 {
     public class Problem001 : IProblem {
         /// <summary>
         /// Solves Problem 001

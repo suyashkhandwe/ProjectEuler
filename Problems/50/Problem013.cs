@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Problems;
 
-namespace Problems_50 {
+namespace Problems._50 {
     public class Problem013 : IProblem {
         private const int N = 100;
         private const int D = 50;
