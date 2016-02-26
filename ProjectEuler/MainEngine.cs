@@ -7,7 +7,7 @@ namespace ProjectEuler {
         public static void Main(String[] args) {
             var watch = Stopwatch.StartNew();
 
-            new Problem017().ProblemSolver();
+            new Problem018().ProblemSolver();
 
             watch.Stop();
             var ms = watch.ElapsedMilliseconds;
