@@ -327,5 +327,26 @@ namespace Library {
             }
             return list.ToArray();
         }
+
+        /// <summary>
+        /// Converts the given string of numbers into a @D dynamic int array
+        /// </summary>
+        /// <param name="inputString">Input string</param>
+        /// <param name="separator">Separator character</param>
+        /// <returns>int[,] array</returns>
+        public int[,] LoadNumbersToArray(string inputString, char separator) {
+            var rowIdx = 0;
+            var rows = inputString.Split('\n');
+            var intArray = new int[rows.Length, rows.Length];
+            foreach (var row in rows) {
+                var thisRow = row.Replace("\r", "").Trim();
+                var colIdx = 0;
+                foreach (var nums in thisRow.Split(separator)) {
+                    intArray[rowIdx, colIdx++] = Convert.ToInt32(nums);
+                }
+                rowIdx++;
+            }
+            return intArray;
+        }
     }
 }

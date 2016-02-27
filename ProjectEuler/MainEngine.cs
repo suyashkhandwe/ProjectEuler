@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
-using Problems._50;
+using Problems._100;
 
 namespace ProjectEuler {
     internal static class MainEngine {
         public static void Main(String[] args) {
             var watch = Stopwatch.StartNew();
 
-            new Problem018().ProblemSolver();
+            new Problem067().ProblemSolver();
 
             watch.Stop();
             var ms = watch.ElapsedMilliseconds;
