@@ -227,6 +227,15 @@ namespace Library {
         }
 
         /// <summary>
+        /// Gets the sum of given array of integers
+        /// </summary>
+        /// <param name="numbers">Array of integers</param>
+        /// <returns>Sum of integers</returns>
+        public long GetSum(int[] numbers) {
+            return numbers.ToList().Sum();
+        }
+
+        /// <summary>
         /// Finds out the largest number from the given list
         /// </summary>
         /// <param name="numbers">List of number</param>
@@ -262,6 +271,22 @@ namespace Library {
                 product *= multiplier++;
             }
             return product;
+        }
+
+        /// <summary>
+        /// Returns the factorial of the given BigInteger
+        /// </summary>
+        /// <param name="bigNumber">BigInteger for which the factorial needs to be calculated</param>
+        /// <returns>Factorial of the BigInteger</returns>
+        public BigInteger Factorial(BigInteger bigNumber)
+        {
+            var bigMultiplier = BigInteger.One;
+            var bigProduct = BigInteger.One;
+            while (bigMultiplier <= bigNumber) {
+                bigProduct = BigInteger.Multiply(bigProduct, bigMultiplier);
+                bigMultiplier = BigInteger.Add(bigMultiplier, BigInteger.One);
+            }
+            return bigProduct;
         }
 
         /// <summary>
